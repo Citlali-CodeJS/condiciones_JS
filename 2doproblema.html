@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo Problema</title>
+    <link rel="stylesheet" href="./2doproblema.css">
+</head>
+<body>
+    <p class="initial-text">Puedes llevar hasta 10 stickers en total😺 </p>
+   
+   <section>
+    <div>
+    <img class="imagen" src="./imgs/audifonos-removebg-preview.png"
+     alt="gato_con_audifonos">
+     <input id="gatoaudifonos" type="text">
+    </div>
+
+    <div>
+    <img class="imagen" src="./imgs/UIIAIU-removebg-preview.png" 
+    alt="gato_de_UII A U I">
+    <input id="gatoUI" type="text">
+   </div>
+    <div>
+    <img class="imagen" src="./imgs/spidey.jpg"
+     alt="Spiderman🕷️ ">
+     <input id="spiderman" type="text">
+    </div>
+</section>
+    <p id="suma-de-stickers"></p>
+    <button id="botoncito" onclick="
+    audifonos = Number(document.querySelector('#gatoaudifonos').value);
+    gatomeme = Number(document.querySelector('#gatoUI').value);
+    spidey = Number(document.querySelector('#spiderman').value);
+    
+    cantidadDeStickers = audifonos + gatomeme + spidey;
+    totalDeStickers = document.querySelector('#suma-de-stickers');
+
+    if(cantidadDeStickers <= 10){
+     totalDeStickers.innerText = 'Estas llevando' + ' ' + cantidadDeStickers + ' ' + 'stickers';
+    }  else {
+        totalDeStickers.innerText = 'Estas llevando demasiados stickers😧!';
+    }
+    ">Verificar</button>
+   
+</body>
+</html>

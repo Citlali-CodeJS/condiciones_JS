@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Problema</title>
+    <link rel="stylesheet" href="./1erproblema.css">
+</head>
+<body>
+    <style>
+        body{
+     background-color: rgb(25, 108, 163);
+        }
+        .spidey{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+    </style>
+    <div class="spidey">
+    <img class="imagen" src="https://i.pinimg.com/736x/1f/32/07/1f3207c708ef171a9299df792a3c59fb.jpg" alt="spiderman-cocinando" onclick="
+    imagen = document.querySelector('img') ;
+    
+    if (imagen.style.border) {
+        imagen.style.border = ''
+    } else{
+        imagen.style.border = '20px solid red'
+    } ">
+   </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.initial-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 191, 248);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: larger;
+}
+section{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 60px;
+  
+}
+#gatoaudifonos{
+    margin-left: 30%;
+    padding-top: 2px;
+}
+#gatoUI{
+    margin-left: 37%;
+    padding-top: 2px;
+}
+#spiderman{
+    margin-left: 35%;
+    padding-top: 2px;
+}
+#botoncito{
+    margin-left: 48.5%;
+    margin-top: 20px;
+}
+#suma-de-stickers{
+    margin-left: 45%;
+    margin-top: 20px;
+   
+}
